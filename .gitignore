@@ -1,0 +1,44 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+*.env
+
+# Streamlit-specific ignores
+.streamlit/
+.streamlit/cache/
+
+# Database and data files
+prices.db
+*.db
+*.sqlite
+*.sqlite3
+your_store.csv
+competitor_store.csv
+*.csv
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.zip
+*.tar.gz
+*.rar
