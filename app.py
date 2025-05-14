@@ -50,7 +50,7 @@ st.markdown("""
 
 @st.cache_data(ttl=3600)
 def load_data(table_name):
-    response = requests.get(f" https://edb3-2a06-c701-bc8e-9800-e882-70fd-a82f-ef9e.ngrok-free.app/data/{table_name}")
+    response = requests.get(f"  https://b59c-2a06-c701-bc8e-9800-e882-70fd-a82f-ef9e.ngrok-free.app/data/{table_name}")
     return pd.DataFrame(response.json())
 
 your_store = load_data('your_store')
